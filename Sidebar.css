@@ -8,40 +8,54 @@ left: 0px;
 bottom: 0px;
 margin-top: 40px;
 background-color: white;
-z-index: 200px;
+z-index: 200;
 }
 
-
+.sidebar-icons{
+    padding-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+}
 
 .sidebar-icons img{
-    width: 28px;
-    margin-left: 20px;
+    width:28px;
+    margin-bottom:4px;
 }
-.sidebar-icons{
-    padding-top: 20px;
 
+.sidebar-icons div{
+    font-size:12px;
+    text-align:center;
 }.sidebar-icons:hover{
     background-color: rgb(230, 230, 230);
+    width: 100%;
     
 }
 
-.labels{
-    font-size: 12px;
-    margin-left: 18px;
-}.Home{
-    font-size: 12px;
-    margin-left: 20px;
-}.Explore{
-    font-size: 12px;
-    margin-left: 16px;
-}.Subscriptions{
-    font-size: 12px;
-    margin-left: 6px;
-}.Origionals{
-    font-size: 12px;
-    margin-left: 10px;
-}.youtube-music{
-    font-size: 12px;
-    margin-left: 4px;
+
+/* Tablet */
+@media (max-width: 900px){
+.sidebar{
+    width: 70px;
+}
 }
 
+/* Mobile */
+@media (max-width: 600px){
+.sidebar{
+    width: 60px;
+}
+
+.sidebar-icons div{
+    font-size: 10px;
+}
+}
+
+/* Very small phones */
+@media (max-width: 450px){
+.sidebar{
+    display: none;
+}
+}
