@@ -13,6 +13,7 @@ body{
     align-items: center;
     height: 60px;
     justify-content: space-between;
+
     border-bottom-width:1px ;
     border-bottom-style: solid;
     border-bottom-color: rgb(220, 220 , 220);
@@ -263,9 +264,6 @@ body{
 
 .youtube-logo{
     margin-right:20px;
-}
-.right-section{
-    width:180px;
 }
 
 }
